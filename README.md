@@ -26,4 +26,14 @@ git clone https://github.com/syakegon/react-init
 npm start
 ```
 
+### Windows環境でエラーが出るかも
+
+Macにて作ったものなので、差異があるようで `npm start`にてエラーが出る時があるようです。その場合は、以下のコードをたたいて見てください。
+
+```
+npm install
+
+npm rebuild node-sass
+```
+
 起動できたら、`http://localhost:8080/`をブラウザで開いて、表示されたらめでたしめでたし。デベロッパーツールで動きをかくにんできて便利ー。
